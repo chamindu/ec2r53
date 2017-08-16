@@ -1,0 +1,12 @@
+[package]
+name = "ec2r53"
+version = "0.1.0"
+authors = ["Chamindu R. Munasinghe"]
+
+[dependencies]
+clap = "2.26.0"
+rusoto_core = { git = "https://github.com/chamindu/rusoto.git" }
+rusoto_route53 = { git = "https://github.com/chamindu/rusoto.git" }
+log = "0.3"
+env_logger = "0.3"
+reqwest= "0.7.2"
